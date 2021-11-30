@@ -172,4 +172,7 @@ user_data_fields = [
 # auth_hooks = [
 # 	"warehouse.auth.validate"
 # ]
-
+fixtures = [{
+    "dt": "Custom Field",
+    "filters": [["name", "in",['Project-note', 'Project-open_walls2','Project-portal_frame2','Project-x__bracing2','Project-right_endwall_lew_bracing_type','Project-right_endwall_condition__along_gl_8','Project-left_endwall_open_walls','Project-portals_frame','Project-x__bracing1','Project-lew_bracing_type','Project-left_endwall_condition__along_gl_1','Project-open_walls','Project-portal_frames','Project-x__bracings','Project-fsw_bracing_type','Project-far_side_wall_condition_along_gl_a','Project-__open_walls','Project-right_lf','Project-portal_frame','Project-x__bracing','Project-note2']]]
+}]
