@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-29 16:04:21.104444",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "frame_type",
+  "widthm",
+  "width_modulem",
+  "roof_slope",
+  "eave_ht",
+  "length",
+  "bay_spacingm"
+ ],
+ "fields": [
+  {
+   "fieldname": "frame_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Frame Type"
+  },
+  {
+   "fieldname": "widthm",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Width(M)"
+  },
+  {
+   "fieldname": "width_modulem",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Width Module(M)"
+  },
+  {
+   "fieldname": "roof_slope",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Roof Slope"
+  },
+  {
+   "fieldname": "eave_ht",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Eave Ht(M)"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Length"
+  },
+  {
+   "fieldname": "bay_spacingm",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bay Spacing(M)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-29 18:22:24.739622",
+ "modified_by": "Administrator",
+ "module": "warehouse",
+ "name": "Building Parameters",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

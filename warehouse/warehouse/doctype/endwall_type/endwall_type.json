@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-29 17:52:35.082212",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "left_endwal",
+  "right_endwall",
+  "rew_columnspacing",
+  "lew_columnspacing"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "left_endwal",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Left Endwal",
+   "options": "M\nLF"
+  },
+  {
+   "default": "0",
+   "fieldname": "right_endwall",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Right Endwall",
+   "options": "M\nLF"
+  },
+  {
+   "fieldname": "rew_columnspacing",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "REW ColumnSpacing"
+  },
+  {
+   "fieldname": "lew_columnspacing",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "LEW ColumnSpacing"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-29 18:23:27.439279",
+ "modified_by": "Administrator",
+ "module": "warehouse",
+ "name": "Endwall Type",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

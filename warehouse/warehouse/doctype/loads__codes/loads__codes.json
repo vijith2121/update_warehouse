@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-29 16:13:33.859436",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "live_load_on_purlins_knm2",
+  "live_load_on_frames_knm2",
+  "collateral_load_knm2",
+  "wind_speed_kph",
+  "seismic_zone",
+  "apply_loads_as_per"
+ ],
+ "fields": [
+  {
+   "fieldname": "live_load_on_purlins_knm2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Live Load on Purlins (KN/M2)"
+  },
+  {
+   "fieldname": "live_load_on_frames_knm2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Live Load on Frames (KN/M2)"
+  },
+  {
+   "fieldname": "collateral_load_knm2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Collateral Load (KN/M2)"
+  },
+  {
+   "fieldname": "wind_speed_kph",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Wind Speed (KPH)"
+  },
+  {
+   "fieldname": "seismic_zone",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Seismic Zone"
+  },
+  {
+   "fieldname": "apply_loads_as_per",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Apply Loads as per"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-29 18:20:40.890882",
+ "modified_by": "Administrator",
+ "module": "warehouse",
+ "name": "Loads  Codes",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
