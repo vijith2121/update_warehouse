@@ -174,5 +174,8 @@ user_data_fields = [
 # ]
 fixtures = [{
     "dt": "Custom Field",
-    "filters": [["name", "in",['Project-x__bracing2','Project-lew_bracing_types','Project-open_walls1','Project-portal_frame1','Project-right_endwall_condition__along_gl_8','Project-left_endwall_open_walls','Project-portals_frame','Project-x__bracing1','Project-lew_bracing_type','Project-left_endwall_condition__along_gl_1','Project-open_walls','Project-portal_frames','Project-x__bracings','Project-fsw_bracing_type','Project-far_side_wall_condition_along_gl_a','Project-__open_walls','Project-right_lf','Project-portal_frame','Project-x__bracing','Project-nsw_bracing_type','Project-near_side_wall_condition__along_gl_d','Project-right_ew_column_spacing','Project-right_mf','Project-right_endwall','Project-ew_column_spacing','Project-lf','Project-mf','Project-left_endwall','Project-endwall_type','Project-apply_loads_as_per','Project-wind_speed_kph','Project-live_load_on_frames_kn_m2','Project-column_break_33','Project-seismic_zone','Project-collateral_load_kn_m2','Project-live_load_on_purlins_kn_m2','Project-loads_and_codes','Project-length_m','Project-width_module_m','Project-eave_ht_m','Project-column_break_25','Project-width_m','Project-bay_spacing_m','Project-roof_slopes','Project-frame_typeses','Project-building_parameters','Project-building_details','Project-building_information']]]
+    "filters": [
+		["dt", "=","Project"],
+		["name", "!=" , "Project-github_sync_id"]
+	]
 }]
